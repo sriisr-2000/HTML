@@ -1,0 +1,26 @@
+*{
+   text-align: center;
+}
+.heading{
+   background:fixed;
+   padding-left: 60 px;
+   background-color: aqua;
+}
+.heading:hover{
+   color: green;
+}
+
+ .table{
+   padding-left: 40%;
+ }
+
+ .photo h1{
+   color: red;
+ }
+
+.under h1{ 
+   color: darkorchid;
+}
+.under h2{
+   text-decoration: underline;
+}
