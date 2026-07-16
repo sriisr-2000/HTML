@@ -2,9 +2,14 @@
    text-align: center;
 }
 .heading{
-   background:fixed;
-   padding-left: 60 px;
-   background-color: aqua;
+   background:lightblue;
+   padding-left: 20 px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-left: 30%;
+   margin-right: 30%;
+   
 }
 .heading:hover{
    color: green;
@@ -23,4 +28,9 @@
 }
 .under h2{
    text-decoration: underline;
+}
+
+.img{
+   
+
 }
