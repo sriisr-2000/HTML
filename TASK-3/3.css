@@ -5,25 +5,20 @@ box-sizing: border-box;
 cursor: pointer;
 }
 
-body{
-background-color:white;
-color:black;
-}
-
 header{
     color:white;
     background-color:lightslategray;
-    padding: 20px 40px;
+    padding:0px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center; 
 }
 
-header .logo{
-    color: darkred;
-     font-size: 50px;
-     font-weight: bold;
+header .logo img{
+    height: 80px;
+    width: 200px;
+    padding-left: 10px;
+     
 }
 
 header nav a{
@@ -36,34 +31,50 @@ nav a:hover{
     color: blue;
     
 }
+.cls{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 .sec{
-    background-color: darkblue;
+    background-color: lightgray;
     text-align: center;
-    margin: 20px 20px;
-
+    margin: 30px 100px;
+    padding: 30px 30px;
     font-weight: bold;
-    color:white 
+    color: dark black;
+}
+
+.sec :hover{
+    transition
+    color: aliceblue;
 }
 
 .sec button{
-    margin: 15px;
+    margin: 15px; 
 }
+
 img{
     width: 250x;
     height: 250px;
     margin: 10px 10px; 
-    padding: 20px 20px;
-
-    }
+    padding: 15px 15px;
+ }
 
 .img{
     display: flex;
     justify-content: space-between;
+    
 }
 
-
-body{
-     background-image: url(background\ image.jpg);
-
+footer {
+    margin-top: 30px;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 50px;
 }
+
