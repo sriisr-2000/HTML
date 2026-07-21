@@ -40,7 +40,7 @@ nav a:hover{
 .sec{
     background-color: lightgray;
     text-align: center;
-    margin: 30px 100px;
+    margin: 30px 80px;
     padding: 30px 30px;
     font-weight: bold;
     color: dark black;
@@ -75,6 +75,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    padding: 50px;
+    padding: 30px;
 }
 
+body{
+    background-image: url(background\ image.jpg);
+}
+
+ 

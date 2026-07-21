@@ -1,0 +1,160 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.main{
+    background: blue;
+    display: flex;
+    padding: 20px 20px 0px 20px;
+   justify-content: start;
+   gap: 30px;
+   align-items: center;
+
+}
+
+.btn img{
+     width: 20px;
+     height: 20px;    
+
+}
+.heading .btn{
+    color: aquamarine;
+}
+
+
+.heading{
+    width: 100%;
+    padding: 10px;
+     display: flex;
+     justify-content:space-between;
+     margin-left: 72px;
+}
+
+
+
+.link{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 20px;
+     background: white;
+     width: 188%;
+     padding: 20px;
+}
+
+.link a{
+     text-decoration: none;
+
+}
+.link img{
+     width: 40px;
+     height: 40px;
+
+}
+
+.link button{
+    
+    padding: 20px ;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.sec{
+    height: 100vh;
+    padding: 40px;
+    background-image: url(BK2.jpeg);
+}
+
+.content h3{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 250px;
+    color: white;
+}
+    
+.content h1{
+    font-size: 120px;
+    margin-left: 250px;
+    margin-top: 30px ;
+    color: white;
+
+}
+
+.content p{
+     font-size: 20px;
+     margin-left: 250px; 
+     margin-top: 30px;
+     color: aliceblue;
+}
+
+.content button{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid blue;
+    
+}
+    
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.box-1{
+    background: rgb(240, 237, 237);
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.box-1 img{
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.box-1 h4{
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+     
+.box-1 p{
+
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.box-1 button{
+
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 20px 40px;
+    font-size: 20px;
+     border-radius: 8px;
+    border: 1px solid blue;
+}
+
+.box-1:hover{
+    transform: translateY(-20px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+
+}
+
+.link a{
+     text-decoration: none;
+
+}
